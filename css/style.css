@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #fff;
+    padding: 5px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #0d7c7e;
+}
+
+ul.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    align-items: center;
+    font-size: 15px;
+    color: #0d7c7e;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+}
+
+ul.menu > li:first-child > a{
+    padding: 15px 5px;
+}
+
+.btn{
+    color: #0d7c7e;
+    display: block;
+    padding: 15px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.logo img{
+    max-height: 60px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+
+h3.entry-title a{
+    color: #0d7c7e;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.meta-date{
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #85c7c6;
+}
+
+.wrapper{
+    border: 1px solid #ddd;
+    padding: 20px 20px 40px;
+    position: relative;
+    height: 100%;
+}
+
+body{
+    background-color: #fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+li a:hover{
+    padding-left: 20px;
+    transition: ease 200ms;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
