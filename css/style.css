@@ -130,3 +130,72 @@ li a:hover{
     outline: 0;
     box-shadow: none;
 }
+
+audio {
+    width: 250px;
+    height: 45px;
+    background-color: #fff;
+    animation: ease-in-out;
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+footer{
+    border-top: 1px solid  #ddd;
+    padding: 46px 0;
+
+}
+
+h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+span.gray{
+    color: #989898;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#f_sign_up form .f_sign_up_g {
+    position: relative;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 3px #eee;
+}
+
+#f_sign_up form .f_sign_up_g input[type="text"] {
+    width: 100%;
+    padding: 7px 110px 7px 36px;
+    font-size: 13px;
+    line-height: 13px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+}
+
+#f_sign_up form .f_sign_up_g .sign_up_btn {
+    position: absolute;
+    background: transparent;
+    right: 0;
+    top: 0;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    color: #0d7c7e;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    outline: none;
+    cursor: pointer;
+}
