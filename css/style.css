@@ -163,7 +163,7 @@ span.gray{
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #f_sign_up form .f_sign_up_g {
@@ -199,3 +199,146 @@ span.gray{
     outline: none;
     cursor: pointer;
 }
+
+.mobile{
+    display: none;
+}
+
+i.none{
+    display: none;
+}
+
+.card:hover{
+    box-shadow: #ddd 0px 10px;
+    transition: ease-in 200ms;
+    font-size: 18px;
+}
+
+.card .card-img-top:hover{
+    transition: ease-in 200ms;
+    width: 120%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 915px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    audio {
+        width: 380px;
+        height: 45px;
+        background-color: #fff;
+        animation: ease-in-out;
+    }
+
+    .d-flex-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    nav ul{
+        left: 0px;
+        top: 0px;
+        position: fixed;
+        background: #fff;
+        width: 250px;
+        height: 750px;
+        z-index: 9999;
+        display: block;
+        transition: all 200ms ease-in;
+        transform: translateX(-300px);
+    }
+
+    i.show{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-right: 188px;
+    }
+
+    i.none{
+        display: block;
+        font-size: 30px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+
+    }
+
+    nav ul.show{
+        transform: translateX(0px);
+    }
+
+
+    nav ul{
+        transform: translateX(-300px);
+    }
+
+    h5{
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    span.gray {
+        color: #989898;
+        display: block;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-bottom: 10px;
+    }
+
+    #f_sign_up form .f_sign_up_g input[type="text"] {
+        width: 100%;
+        padding: 7px 110px 7px 36px;
+        font-size: 13px;
+        line-height: 13px;
+        border: none;
+        border-radius: 40px;
+        outline: none;
+    }
+
+    #f_social{
+        padding: 0px 110px;
+    }
+
+    img.lg2{
+        padding-bottom: 40px;
+        padding-top: 20px;
+        width: 100px;
+        max-height: 250px;
+    }
+
+    .card:hover{
+        box-shadow: #ddd 10px 7px;
+        transition: ease-in 200ms;
+        font-size: 18px;
+    }
+    
+    .card .card-img-top:hover{
+        transition: ease-in 200ms;
+        width: 100%;
+    }
+    
+
+  }

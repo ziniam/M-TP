@@ -11,9 +11,71 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/54677740e0.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('#icon').click(function(){
+          $('ul').toggleClass('show');
+        });
+
+        $('#icon2').click(function(){
+          $('ul').removeClass('show');
+        });
+      });
+    </script>
 </head>
 <body>
-<nav>
+  <nav class="mobile">
+    <div class="container d-flex">
+        <div>
+            <ul class="menu d-flex-1">
+              <i class="fa-solid fa-xmark show" id="icon2"></i>
+                <li>
+                    <a href="" class="logo">
+                        <img src="./image/logo.png" alt="Logo">
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="">
+                        Artist
+                        <div class="dropdown-content">
+                           <a href="">Booking</a>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Schedule</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Fanboard</a>
+                </li>
+                <li class="dropdown">
+                    <a href="">
+                        Gallery
+                        <div class="dropdown-content">
+                           <a href="">Picture</a>
+                           <br>
+                           <a href="">Video</a>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Shop</a>
+                </li>
+
+                <div class="btn-group d-flex">
+                  <a href="#" class="btn">Login</a>
+                  <a href="#" class="btn">Sign Up</a>
+              </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+  
+<nav class="pc">
     <div class="container d-flex">
         <div>
             <ul class="menu d-flex">
@@ -61,6 +123,8 @@
         </div>
     </div>
 </nav>
+
+<i class="fa-solid fa-bars none" id="icon"></i>
 
     <header>
         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -152,7 +216,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="./image/109703122_3732699266743749_5156905302009285835_n.jpg" height="312px" alt="Card image cap">
+                  <img class="card-img-top" src="./image/109703122_3732699266743749_5156905302009285835_n.jpg" alt="Card image cap">
                   <audio controls>
                     <source src="./music/SƠN TÙNG M-TP - CÓ CHẮC YÊU LÀ ĐÂY (FLIP REMIX).mp3"
                      type="audio/mp3">
@@ -167,7 +231,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="./image/65422938_2795378960475789_5093503386792230912_n.jpg" height="312px" alt="Card image cap">
+                  <img class="card-img-top" src="./image/65422938_2795378960475789_5093503386792230912_n.jpg" alt="Card image cap">
                   <audio controls>
                     <source src="./music/SƠN TÙNG M-TP _ HÃY TRAO CHO ANH ft. Snoop Dogg (FLIP REMIX).mp3" type="audio/mp3">
                   </audio>
@@ -208,7 +272,7 @@
           <div class="col-xl-2 col-md-2 col-xs-12 r-col">
             <div id="f_social">
               <a href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=34968">
-					     <img src="./image/logo.png" style="max-width:150px">
+					     <img src="./image/logo.png" style="max-width:150px" class="lg2">
 				      </a>
             </div>
           </div>
