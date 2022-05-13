@@ -289,7 +289,7 @@ video .mobile{
    display: none;
 }
 
-a>img.mobile-logo{
+a img .mobile-logo{
     display: none;
 }
 
@@ -434,7 +434,7 @@ a>img.mobile-logo{
         display: none;
     }
 
-    a>img.mobile-logo{
+    a img .mobile-logo{
         display: block;
         position: fixed;
         top: 16px;
