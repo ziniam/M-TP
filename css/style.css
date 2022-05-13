@@ -241,9 +241,8 @@ h1.title-1, h1.title-2{
 
 .card-icon{
     align-items: center;
-    padding: 0px 70px;
+    padding: 0px 90px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #ddd;
 }
 
 .fab{
@@ -269,6 +268,8 @@ iframe{
 }
 
 .card-social{
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
