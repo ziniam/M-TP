@@ -265,7 +265,7 @@ video{
 }
 
 iframe{
-    padding: 10px 10px;
+    padding: 10px 0px;
 }
 
 .card-social{
@@ -386,6 +386,10 @@ video .mobile{
         border: none;
         border-radius: 40px;
         outline: none;
+    }
+
+    iframe{
+        padding: 10px 3px;
     }
 
     img.lg2{
