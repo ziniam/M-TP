@@ -290,6 +290,109 @@ video .mobile{
    display: none;
 }
 
+.pl{
+    padding-top: 5px;
+    border-top: 1px solid #ddd;
+}
+
+.mar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    letter-spacing: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0px 240px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrappe{
+    padding: 3px 240px;
+    color: #0d7c7e;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.artist-job{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.artist-content{
+    color: #0d7c7e;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.wpb_single_image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.wpb_single_image.vc_align_left {
+    text-align: left;
+}
+
+.wpb_single_image .vc_single_image-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.wpb_content_element{
+    margin-bottom: 35px;
+}
+
+.wpb_single_image .vc_figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    max-width: 100%;
+}
+
+.tille-pl{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+    text-align: left;
+}
+
+.col-8 p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.xl{
+    border-bottom: 1px solid #ddd;
+}
+
+.vc_column-inner{
+    padding-top: 20px;
+}
 
 @media only screen and (max-width: 915px) {
     .container {
@@ -434,6 +537,30 @@ video .mobile{
     
     video .pc{
         display: none;
+    }
+
+    .mar {
+        padding: 0px 20px;
+    }
+
+    .mar h1{
+        font-size: 26px;
+    }
+
+    .wrappe {
+        padding: 0px 20px;
+    }
+
+    .wrappe p{
+        font-size: 18px;
+    }
+
+    .row .head-text-after, .row .col-8 p{
+        font-size: 10px;
+    }
+
+    .col-8 .log{
+      padding-bottom: 20px;
     }
 
   }
